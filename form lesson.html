@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson1</title>
+</head>
+<body>
+  <form action="https://google.com" > 
+    <!-- method an attribute -->
+    <!-- action(in form) action to be taken after submitting form -->
+    Name  : <input size="45" name="usename" maxlength="20" minlength="3" placeholder="please enter user name"> <br/>
+    <!-- value="Vedant", can be used in name  -->
+    Age   :<input name="uage"/> <br/>
+    <!-- disabled or readonl attribute can also be used -->
+    Gender : <input type="radio"name="Gender" value ="M" checked/>male
+    <!-- checked attribute helps to set a default option -->
+    <input type="radio"name="Gender"value ="f"/>female <br>
+    Technology  : 
+    <input type="checkbox" name="tech" value="h" checked/>html
+    <input type="checkbox"name="tech"value="j"/>java
+    <input type="checkbox"name="tech"value="m"/>mongo
+    <input type="checkbox"name="tech"value="py"/>python
+    <input type="checkbox"name="tech"value="c++"/>c++ <br>
+    <!-- name  : it helps to store things to the server <if not mentioned ,thing wouldnot go to the server>-->
+       <!-- multiple attribute helps to choose different options in dropdown( press ctrl key) -->
+       <option value="">bengaluru</option>
+    City lived in : <select name ="City" multiple>
+     
+      <option value="">bengaluru</option>
+      <option value="">karnatak</option>
+      <option value="">UP</option>
+      <option value="">bihar</option>
+      <option value="" selected>goa</option>
+      <!-- (selected)same as checked -->
+      <option value="">mumbai</option>
+      <option value="">mumbai</option>
+      <option value="">mumbai</option>
+    <!-- hi,(value) it means to give a shortcut to the server of any thing  -->
+
+    </select> <br>
+     <!-- cols for column and rows for roes -->
+
+    <textarea cols="30" rows="7">
+  
+
+
+
+    </textarea> <br>
+    <input type="button" value="click me" />
+    <input type="submit" value="submit form" >
+    <input type="reset" value="reset" />
+
+
+
+
+  </form>
+ 
+
+ 
+</body>
+</html>
